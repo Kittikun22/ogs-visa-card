@@ -1,0 +1,58 @@
+.topic-movement {
+  color: #617f97;
+  margin: 20px 7%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.movement-box {
+  margin: 0 6%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: white;
+  height: 65px;
+  box-shadow: 2px 2px 4px #eeeff1, -2px -2px 4px #eeeff1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movement-box .icon {
+  font-size: 34px;
+  color: #3a3a3b;
+  margin: 5px;
+}
+.movement-detail {
+  margin: auto;
+}
+.movement-detail .subject {
+  font-weight: 600;
+}
+.movement-detail .date {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+.movement-trans {
+  display: flex;
+  padding: 10px 2px;
+}
+.movement-trans span {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.movement-trans .arrow {
+  font-size: 15px;
+  margin: 3px;
+}
+.movement-income {
+  color: #44b477;
+}
+
+.movement-expense {
+  color: #d65657;
+}

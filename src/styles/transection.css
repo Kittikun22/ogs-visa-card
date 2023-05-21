@@ -1,0 +1,45 @@
+.transection {
+  display: flex;
+  margin: 0 7%;
+  margin-top: 25px;
+  border-radius: 5px;
+  background: white;
+  height: 85px;
+  box-shadow: 2px 2px 4px #eeeff1, -2px -2px 4px #eeeff1;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.income {
+  padding: 15px;
+}
+
+.expense {
+  padding: 15px;
+}
+
+.transection .descrip {
+  color: #3d5c77;
+  padding: 2px 0;
+  border: 2px solid #e7e9e8;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.trans-count {
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  gap: 5px;
+}
+
+.income .trans-count {
+  color: #44b477;
+}
+
+.expense .trans-count {
+  color: #d65657;
+}
